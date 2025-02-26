@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_elements_pricing_cards",
+  "info": {
+    "displayName": "pricing card"
+  },
+  "options": {},
+  "attributes": {
+    "planName": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.button-link"
+    }
+  }
+}
