@@ -30,7 +30,8 @@
       "type": "dynamiczone",
       "components": [
         "blocks.hero",
-        "elements.row"
+        "elements.row",
+        "blocks.pricing"
       ]
     }
   }
